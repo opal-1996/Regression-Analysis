@@ -44,6 +44,8 @@ Interpret of OLS results:
 In python, we can use [`statsmodel`](https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.OLS.html#statsmodels.regression.linear_model.OLS) package for OLS modeling. It takes care of the optimization of loss function and all the math behind the algorithm, all we need to feed is input features and target feature. The OLS function would fit a model and estimate the parameters. A typical OLS results table looks like this:
 
 ![image](./Linear%20Regression%20-%20Capital%20Asset%20Pricing%20Model/images/OLS.png)
+
+
 [*Image source.*](https://www.geeksforgeeks.org/interpreting-the-results-of-linear-regression-using-ols-summary/)
 
 * Constant term($\hat{a}$): the intercept of the regression line, tells the average value of all omitted variables and noise present in the model. From the figure above, the intercept is -3.2002. 
